@@ -1,4 +1,4 @@
-#written by funcbone.
+#written by Cetubone.
 #using python 3.8.9
 Version = 'v.1.0'
 
@@ -389,7 +389,7 @@ def pump(Q = Q,H = H,N = N,η = η):
 
 def easyDrawInfo():
     print('='*70,)
-    print(' easyDraw {}  funcbone.com\n'.format(Version))
+    print(' easyDraw {}  cetubone.com\n'.format(Version))
     print(' 欢迎使用，本程序目前用于绘制三种图像：\n\n 1、精馏塔全回流理论板绘制\n 2、精馏塔部分回流理论板绘制\n 3、离心泵特性曲线绘制\n')
     print(' 输入对应的序号进行图像绘制\n\n 输入0或exit退出\n about  --关于本软件')
     print('='*70)
@@ -422,9 +422,9 @@ def nonfullCicEditInfo():
 def aboutInfo():
         os.system('cls')
         print('#'*70)
-        print(' easyDraw {} funcbone.com'.format(Version))
+        print(' easyDraw {} cetubone.com'.format(Version))
         print('\n 本软件为方便化工原理实验作图，由funcbone编制作\n 使用python及第三方库matplotlib绘制曲线\n\n 如使用过程中遇到恶性漏洞，请截图反馈帮助完善软件！\n\n 联系方式：\n QQ:352121146\n 邮箱：funcbone@163.com\n 网站：funcbone.com')
-        print('\n 源码：\n https://github.com/funcbone/easyDraw')
+        print('\n 源码：\n https://gitee.com/Cetubone/easyDraw')
         print('\033[4;30;36m\nWe are all in the gutter, but some of us are looking at the stars.\033[0m')
         print('#'*70)
 
